@@ -27,13 +27,13 @@ HataliIslem() {
 #Banner // http://patorjk.com/software/taag/#p=display&c=bash&f=Stop&t=Kekik%20Shell
 banner() {
 	clear
-	printf "$yesil _    _      _     _ _      $renkreset$beyaz     _    _           _ _ $renkreset\n"
-	printf "$yesil| |  / )    | |   (_) |     $renkreset$beyaz    | |  | |         | | |$renkreset\n"
-	printf "$yesil| | / / ____| |  _ _| |  _  $renkreset$beyaz     \ \ | | _   ____| | |$renkreset\n"
-	printf "$yesil| |< < / _  ) | / ) | | / ) $renkreset$beyaz      \ \| || \ / _  ) | |$renkreset\n"
-	printf "$yesil| | \ ( (/ /| |< (| | |< (  $renkreset$beyaz  _____) ) | | ( (/ /| | |$renkreset\n"
-	printf "$yesil|_|  \_)____)_| \_)_|_| \_) $renkreset$beyaz (______/|_| |_|\____)_|_|$renkreset\n"
-	printf " $beyaz v4.2 coded by github.com/KekikAkademi/KekikShell$renkreset \n"
+	printf "$yesil   _____   _  _  _           _     _____  _     _ ______  _______ _______  $renkreset$beyaz     _    _           _ _ $renkreset\n"
+	printf "$yesil| (____ \ | || || |  /\     | |   / ___ \| |   | (____  \(_______|_______)$renkreset$beyaz    | |  | |         | | |$renkreset\n"
+	printf "$yesil|  _   \ \| || || | /  \     \ \ | |   | | |__ | |____)  )_____   _        $renkreset$beyaz     \ \ | | _   ____| | |$renkreset\n"
+	printf "$yesil| | |   | | ||_|| |/ /\ \     \ \| |   | |  __)| |  __  (|  ___) | |      $renkreset$beyaz      \ \| || \ / _  ) | |$renkreset\n"
+	printf "$yesil| | |__/ /| |___| | |__| |_____) ) |___| | |   | | |__)  ) |_____| |_____  $renkreset$beyaz  _____) ) | | ( (/ /| | |$renkreset\n"
+	printf "$yesil| |_____/  \______|______(______/ \_____/|_|   |_|______/|_______)\______) $renkreset$beyaz (______/|_| |_|\____)_|_|$renkreset\n"
+	printf " $beyaz t.me/DarkWebAzerbaijan $renkreset \n"
 	printf "\n"
 }
 
@@ -42,11 +42,6 @@ Ana_Menu() {
 	banner
 	printf "$yesil[$renkreset$beyaz 01 $renkreset$yesil]$renkreset$sari Genel Kurulumlar$renkreset\n"
 	printf "$yesil[$renkreset$beyaz 02 $renkreset$yesil]$renkreset$sari Termux Kurulumlar$renkreset\n"
-	printf "$yesil[$renkreset$beyaz 03 $renkreset$yesil]$renkreset$sari The Linux Choice$renkreset\n"
-	printf "$yesil[$renkreset$beyaz 04 $renkreset$yesil]$renkreset$sari BruteForce$renkreset\n"
-	printf "$yesil[$renkreset$beyaz 05 $renkreset$yesil]$renkreset$sari Botnet$renkreset\n"
-	printf "$yesil[$renkreset$beyaz 06 $renkreset$yesil]$renkreset$sari Other$renkreset\n"
-	printf "$yesil[$renkreset$beyaz 07 $renkreset$yesil]$renkreset$sari Python$renkreset\n"
 	printf "\n"
 	printf "$sari[$renkreset$beyaz 99 $renkreset$sari]$renkreset$beyaz Çıkış$renkreset\n"
 	printf "\n"
