@@ -27,12 +27,12 @@ HataliIslem() {
 #Banner // http://patorjk.com/software/taag/#p=display&c=bash&f=Stop&t=Kekik%20Shell
 banner() {
 	clear
-	printf "$yesil   _____   _  _  _           _     _____  _     _ ______  _______ _______  $renkreset\n"
-	printf "$yesil| (____ \ | || || |  /\     | |   / ___ \| |   | (____  \(_______|_______)$renkreset\n"
-	printf "$yesil|  _   \ \| || || | /  \     \ \ | |   | | |__ | |____)  )_____   _        $renkreset\n"
-	printf "$yesil| | |   | | ||_|| |/ /\ \     \ \| |   | |  __)| |  __  (|  ___) | |      $renkreset\n"
-	printf "$yesil| | |__/ /| |___| | |__| |_____) ) |___| | |   | | |__)  ) |_____| |_____  $renkreset\n"
-	printf "$yesil| |_____/  \______|______(______/ \_____/|_|   |_|______/|_______)\______) $renkreset\n"
+	printf "$mavi     _______          __      _____       _     _          _   $renkreset\n"
+	printf "$mavi    |  __ \ \        / /\    / ____|     | |   | |        | |  $renkreset\n"
+	printf "$kirmizi | |  | \ \  /\  / /  \  | (___   ___ | |__ | |__   ___| |_ $renkreset\n"
+	printf "$kirmizi | |  | |\ \/  \/ / /\ \  \___ \ / _ \| '_ \| '_ \ / _ \ __| $renkreset\n"
+	printf "$yesil   | |__| | \  /\  / ____ \ ____) | (_) | | | | |_) |  __/ |_  $renkreset\n"
+	printf "$yesil   |_____/   \/  \/_/    \_\_____/ \___/|_| |_|_.__/ \___|\__| $renkreset\n"
 	printf " $beyaz t.me/DarkWebAzerbaijan $renkreset \n"
 	printf "\n"
 }
@@ -40,12 +40,12 @@ banner() {
 #Ana_Menu
 Ana_Menu() {
 	banner
-	printf "$yesil[$renkreset$beyaz 01 $renkreset$yesil]$renkreset$sari Genel Kurulumlar$renkreset\n"
-	printf "$yesil[$renkreset$beyaz 02 $renkreset$yesil]$renkreset$sari Termux Kurulumlar$renkreset\n"
+	printf "$yesil[$renkreset$beyaz 01 $renkreset$yesil]$renkreset$sari Lazımlı qurulumlar$renkreset\n"
+	printf "$yesil[$renkreset$beyaz 02 $renkreset$yesil]$renkreset$sari Termux lazımlı şeylər$renkreset\n"
 	printf "\n"
-	printf "$sari[$renkreset$beyaz 99 $renkreset$sari]$renkreset$beyaz Çıkış$renkreset\n"
+	printf "$sari[$renkreset$beyaz 99 $renkreset$sari]$renkreset$beyaz Çıxış$renkreset\n"
 	printf "\n"
-	read -p $'\e[1;92m[ * ] İşlem:\e[0m\e[1;77m ' islem
+	read -p $'\e[1;92m[ * ] Proses:\e[0m\e[1;77m ' islem
 
 #GenelKurulumlar
 if [[ $islem == 1 || $islem == 01 ]]; then
@@ -120,15 +120,15 @@ TermuxKurulumlar() {
 	clear
 	banner
 		printf "$cyan"
-		figlet -w 50 -c -f digital "~ Termux Kurulumlar ~" | pv -qL 75
+		figlet -w 50 -c -f digital "~ Termux lazımlı şeylər ~" | pv -qL 75
 		printf "$renkreset"
 	printf "\n"
-	printf "$yesil[$renkreset$beyaz 01 $renkreset$yesil]$sari Ekstra Tuşlar$renkreset		$yesil[$renkreset$beyaz 03 $renkreset$yesil]$sari Tema-Ayar$renkreset\n"
-	printf "$yesil[$renkreset$beyaz 02 $renkreset$yesil]$sari Termux Repolar$renkreset		$yesil[$renkreset$beyaz 04 $renkreset$yesil]$sari Metasploit$renkreset\n"
+	printf "$yesil[$renkreset$beyaz 01 $renkreset$yesil]$sari Ekstra Düymələr$renkreset		$yesil[$renkreset$beyaz 03 $renkreset$yesil]$sari Tema-Ayarı$renkreset\n"
+	printf "$yesil[$renkreset$beyaz 02 $renkreset$yesil]$sari Termux Repoları$renkreset		$yesil[$renkreset$beyaz 04 $renkreset$yesil]$sari Metasploit$renkreset\n"
 	printf "\n"
 	printf "$sari[$renkreset$beyaz 99 $renkreset$sari]$renkreset$beyaz Geri$renkreset\n"
 	printf "\n"
-	read -p $'\e[1;92m[ * ] İşlem: \e[0m' Termux_Islem
+	read -p $'\e[1;92m[ * ] Proses: \e[0m' Termux_Islem
 
 ###Ekstra Tuşlar
 if [[ $Termux_Islem == "1" || $Termux_Islem == "01" ]]; then
