@@ -14,12 +14,12 @@
 #Genel Değişken Tanımları
 KurulumTamamlandi() {
 	sleep 1
-	printf "$beyaz[$renkreset$kirmizi ~ $renkreset$beyaz]$renkreset$kirmizi KURULUM BİTTİ!$renkreset"
+	printf "$beyaz[$renkreset$kirmizi ~ $renkreset$beyaz]$renkreset$kirmizi Qurulum bitti!$renkreset"
 	sleep 2
 }
 
 HataliIslem() {
-	printf "$sari[$renkreset$beyaz!$renkreset$sari] HATALI İŞLEM!$renkreset"
+	printf "$sari[$renkreset$beyaz!$renkreset$sari] Xətalı proses!$renkreset"
 	sleep 1.5
 	clear
 }
@@ -124,7 +124,7 @@ TermuxKurulumlar() {
 		printf "$renkreset"
 	printf "\n"
 	printf "$yesil[$renkreset$beyaz 01 $renkreset$yesil]$sari Ekstra Düymələr$renkreset		$yesil[$renkreset$beyaz 03 $renkreset$yesil]$sari Tema-Ayarı$renkreset\n"
-	printf "$yesil[$renkreset$beyaz 02 $renkreset$yesil]$sari Termux Repoları$renkreset		$yesil[$renkreset$beyaz 04 $renkreset$yesil]$sari Metasploit$renkreset\n"
+	printf "$yesil[$renkreset$beyaz 02 $renkreset$yesil]$sari Termux Repoları$renkreset\n"
 	printf "\n"
 	printf "$sari[$renkreset$beyaz 99 $renkreset$sari]$renkreset$beyaz Geri$renkreset\n"
 	printf "\n"
