@@ -120,7 +120,7 @@ TermuxKurulumlar() {
 	clear
 	banner
 		printf "$cyan"
-		figlet -w 50 -c -f digital "~ Termux lazımlı şeylər ~" | pv -qL 75
+		figlet -w 50 -c -f digital "~ Termux Ekstra ~" | pv -qL 75
 		printf "$renkreset"
 	printf "\n"
 	printf "$yesil[$renkreset$beyaz 01 $renkreset$yesil]$sari Ekstra Düymələr$renkreset		$yesil[$renkreset$beyaz 03 $renkreset$yesil]$sari Tema-Ayarı$renkreset\n"
@@ -163,7 +163,7 @@ elif [[ $Termux_Islem == "3" || $Termux_Islem == "03" ]]; then
 	printf "\n"
 	printf "$sari[$renkreset$beyaz 99 $renkreset$sari]$renkreset$beyaz Geri$renkreset\n"
 	printf "\n"
-	read -p $'\e[1;92m[ * ] İşlem: \e[0m' Tema_Islem
+	read -p $'\e[1;92m[ * ] Proses: \e[0m' Tema_Islem
 		
 		####OhMyZSH
 		if [[ $Tema_Islem == "1" || $Tema_Islem == "01" ]]; then
