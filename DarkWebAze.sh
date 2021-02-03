@@ -27,8 +27,8 @@ HataliIslem() {
 #Banner // http://patorjk.com/software/taag/#p=display&c=bash&f=Stop&t=Kekik%20Shell
 banner() {
 	clear
-	printf "$mavi   _______          __      _____       _     _          _   $renkreset\n"
-	printf "$mavi  |  __ \ \        / /\    / ____|     | |   | |        | |  $renkreset\n"
+	printf "$mavi  _______          __      _____       _     _          _   $renkreset\n"
+	printf "$mavi |  __ \ \        / /\    / ____|     | |   | |        | |  $renkreset\n"
 	printf "$kirmizi | |  | \ \  /\  / /  \  | (___   ___ | |__ | |__   ___| |_ $renkreset\n"
 	printf "$kirmizi | |  | |\ \/  \/ / /\ \  \___ \ / _ \| '_ \| '_ \ / _ \ __| $renkreset\n"
 	printf "$yesil | |__| | \  /\  / ____ \ ____) | (_) | | | | |_) |  __/ |_  $renkreset\n"
