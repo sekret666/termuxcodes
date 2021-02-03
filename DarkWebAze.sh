@@ -29,7 +29,7 @@ banner() {
 	clear
 	printf "$mavi _______          __      $renkreset\n"
 	printf "$mavi | |  | \ \  /\  / /  \   $renkreset\n"
-	printf "$kirmizi | |  | \ \  /\  / /  \  | (___   ___ | |__ | |__   ___| |_ $renkreset\n"
+	printf "$kirmizi  | |  | \ \  /\  / /  \ $renkreset\n"
 	printf "$kirmizi | |  | |\ \/  \/ / /\ \   $renkreset\n"
 	printf "$yesil | |__| | \  /\  / ____ \  $renkreset\n"
 	printf "$yesil |_____/   \/  \/_/    \_\ $renkreset\n"
