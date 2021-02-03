@@ -43,7 +43,7 @@ Ana_Menu() {
 	printf "$yesil[$renkreset$beyaz 01 $renkreset$yesil]$renkreset$sari Lazımlı qurulumlar$renkreset\n"
 	printf "$yesil[$renkreset$beyaz 02 $renkreset$yesil]$renkreset$sari Termux lazımlı şeylər$renkreset\n"
 	printf "\n"
-	printf "$sari[$renkreset$beyaz 99 $renkreset$sari]$renkreset$beyaz Çıxış$renkreset\n"
+	printf "$sari[$renkreset$beyaz Çıxış $renkreset$sari]$renkreset$beyaz Dayandırmaq üçün ctrl+c vurun$renkreset\n"
 	printf "\n"
 	read -p $'\e[1;92m[ * ] Proses:\e[0m\e[1;77m ' islem
 
