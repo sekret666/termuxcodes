@@ -201,14 +201,6 @@ elif [[ $Termux_Islem == "3" || $Termux_Islem == "03" ]]; then
 		}
 		TemaAyar
 
-###Metasploit
-elif [[ $Termux_Islem == "4" || $Termux_Islem == "04"  ]]; then
-	sleep 0.5
-	pkg install unstable-repo -y
-	pkg install metasploit -y
-	KurulumTamamlandi
-	TermuxKurulumlar
-
 ###Geri
 elif [[ $Termux_Islem == "99" ]]; then
 	Ana_Menu
@@ -221,15 +213,7 @@ fi
 }
 
 
-###Geri
-elif [[ $Python_Islem  == 99 ]]; then
-	Ana_Menu
 
-else
-	HataliIslem
-	Python
-
-fi
 }
 
 Ana_Menu
